@@ -6,6 +6,6 @@ public class Fiction extends Book{
     }
     
     public void setPrice(){
-        super.Price=24.99;
+        super.Price=17.99;
     }
 }

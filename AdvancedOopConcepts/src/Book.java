@@ -1,6 +1,6 @@
 public abstract class Book {
-    private String Title;
-    private double Price;
+    String Title;
+    public double Price;
     
     public Book(String title ){
         Title=title;
