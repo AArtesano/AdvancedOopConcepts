@@ -14,7 +14,7 @@ public abstract class GeometricFigure {
 	
 	public void display() {
 		System.out.println("Type: " + type);
-		System.out.println("Are of " + type + " " +calArea());
+		System.out.println("Area of " + type + " " +calArea());
 	}
 	
 	abstract double calArea();

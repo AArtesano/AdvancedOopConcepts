@@ -14,9 +14,9 @@ public class Triangle extends GeometricFigure{
 	}
 	
 	public void display() {
-		System.out.println("\nType: " + type);
-		System.out.println("Height of the " + type + ": " + height);
-		System.out.println("Width of the " + type + ": " + width);
-		System.out.println("Area of the " + type + ": " + calArea());
+		System.out.println("\nThe shape is a " + type);
+		System.out.println("Height of " + type + ": " + height);
+		System.out.println("Width of " + type + ": " + width);
+		System.out.println("Area of " + type + ": " + calArea());
 	}
 }
